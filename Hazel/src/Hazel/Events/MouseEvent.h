@@ -42,7 +42,7 @@ namespace Hazel {
             return ss.str();
         }
 
-        EVENT_CLASS_TYPE(MouseScrolledEvent);
+        EVENT_CLASS_TYPE(MouseScrolled);
         EVENT_CLASS_CATEGORY(EventCategoryMouse | EventCategoryInput);
     private:
         float m_xOffset, m_yOffset;
