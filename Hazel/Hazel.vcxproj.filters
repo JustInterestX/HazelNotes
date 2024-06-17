@@ -34,6 +34,12 @@
     <ClInclude Include="src\Hazel\Log.h">
       <Filter>Hazel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hazel\Window.h">
+      <Filter>Hazel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Hazel\WindowsWindow.h">
+      <Filter>Hazel</Filter>
+    </ClInclude>
     <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -41,6 +47,9 @@
       <Filter>Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\Hazel\Log.cpp">
+      <Filter>Hazel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Hazel\WindowsWindow.cpp">
       <Filter>Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp" />
