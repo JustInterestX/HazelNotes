@@ -8,10 +8,10 @@
       <UniqueIdentifier>{5DEF92FE-4952-22A3-F2D7-5A59DE19EE25}</UniqueIdentifier>
     </Filter>
     <Filter Include="Platform">
-      <UniqueIdentifier>{82b36893-110b-40a6-80bf-8c5b45966a74}</UniqueIdentifier>
+      <UniqueIdentifier>{e85653d2-f145-43e8-aee1-b4ce5dba5dac}</UniqueIdentifier>
     </Filter>
     <Filter Include="Platform\Windows">
-      <UniqueIdentifier>{177856be-57a7-4ab2-982b-6df207ff55d1}</UniqueIdentifier>
+      <UniqueIdentifier>{0379544e-21a3-47ee-80d5-69d6ab2d7f7e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -50,9 +50,11 @@
       <Filter>Hazel</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
-    <ClInclude Include="src\Hazel\WindowsWindow.h">
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
       <Filter>Platform\Windows</Filter>
     </ClInclude>
+    <ClInclude Include="src\Hazel\ImGui\ImGuiLayer.h" />
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Hazel\Application.cpp">
@@ -68,8 +70,10 @@
       <Filter>Hazel</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp" />
-    <ClCompile Include="src\Hazel\WindowsWindow.cpp">
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
       <Filter>Platform\Windows</Filter>
     </ClCompile>
+    <ClCompile Include="src\Hazel\ImGui\ImGuiLayer.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp" />
   </ItemGroup>
 </Project>
